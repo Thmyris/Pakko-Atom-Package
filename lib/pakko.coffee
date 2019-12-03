@@ -17,7 +17,7 @@ module.exports = Pakko =
     atom.workspace.observeTextEditors (editor) ->
       editor.observeCursors (cursor) ->
         cursor.onDidChangePosition (event) ->
-          if event.cursor.isInsideWord({ wordRegex: "[pP]akko" })
+          if event.cursor.isInsideWord({ wordRegex: "[pP][aA][kK][kK][oO]" })
             Pakko.pakkoDecoration = editor.decorateMarker(event.cursor.getMarker(), {type: 'overlay', class: 'my-line-class', item:Pakko.pakkoView})
           else
             Pakko.pakkoDecoration.destroy() if Pakko.pakkoDecoration
