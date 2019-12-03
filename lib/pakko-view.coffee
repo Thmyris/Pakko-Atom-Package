@@ -1,9 +1,9 @@
 module.exports =
-class DogeView
+class PakkoView
   constructor: (serializedState) ->
     # Create root element
     @element = document.createElement('div')
-    @element.classList.add('doge')
+    @element.classList.add('pakko')
 
   # Returns an object that can be retrieved when package is activated
   serialize: ->
