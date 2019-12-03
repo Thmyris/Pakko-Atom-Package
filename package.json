@@ -1,13 +1,13 @@
 {
-  "name": "doge",
-  "main": "./lib/doge",
+  "name": "pakko",
+  "main": "./lib/pakko",
   "version": "0.1.3",
-  "description": "such atom. wow.",
+  "description": "Gigantic's Pakko",
   "keywords": [
-    "doge",
-    "wow"
+    "pakko",
+    "slide"
   ],
-  "repository": "https://github.com/tylerl0706/Doge-Atom-Package",
+  "repository": "https://github.com/Thmyris/Pakko-Atom-Package",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
