@@ -1,5 +1,6 @@
 # Pakko ![pakko](https://raw.githubusercontent.com/Thmyris/Pakko-Atom-Package/master/assets/pakko.png)
 Pakko is an Atom Package that shows you a picture of pakko when your text cursor is just behind the word "Pakko" (See screenshot). This plugin is essential for Pakko fans everywhere.
+
 ![screenshot](https://raw.githubusercontent.com/Thmyris/Pakko-Atom-Package/master/assets/screenshot.png)
 
 ## Installation
